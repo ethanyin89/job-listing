@@ -176,10 +176,10 @@
   font-family: "Gotham Rounded A", "Gotham Rounded B", Helvetica, Arial, sans-serif;
   text-align: center;
   font-weight: bold;
-  transition: all 300ms ease;
-  padding: 8px 12px;
+  width: 230px;
+  touch-action: manipulation;
+  padding: 10px 67px;
   font-size: 10px;
-  line-height: 1.42857;
   border-radius: 4px;
 }
 
@@ -327,6 +327,9 @@ img {
 
 
 
+.text-center {
+    text-align: center;
+}
 
 .carousel-control.right, .carousel-control.left {
     background-image: none;
