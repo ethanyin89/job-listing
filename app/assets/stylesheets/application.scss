@@ -22,7 +22,7 @@
 
 /****** LOGIN MODAL ******/
 .loginmodal-container {
-  padding: 38px;
+  padding: 30px;
   text-align: center;
   border-top: 1px;
   border-bottom: 1px;
@@ -36,7 +36,6 @@
   border-radius: 3px;
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
   overflow: hidden;
-  font-family: Helvetica, Arial, sans-serif;
 }
 
 .loginmodal-container h1 {
@@ -62,7 +61,7 @@
   border: 1px solid #d9d9d9;
   border-top: 1px solid #c0c0c0;
   /* border-radius: 2px; */
-  padding: 0 8px;
+  padding: 0.2px;
   box-sizing: border-box;
   -moz-box-sizing: border-box;
 }
@@ -124,8 +123,8 @@
    .navbar-default .navbar-brand {
     color: #512da8;
 
-    padding: 10px 15px;
-    line-height: 30px;
+    padding: 10px 5px 15px 20px;
+    line-height: 10px;
   }
 
   .navbar-default .navbar-brand:hover,
