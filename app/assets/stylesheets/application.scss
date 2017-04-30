@@ -198,7 +198,7 @@
 
 .text-center .col-xs-12 {
       text-align: center;
-      font-size: 15px;
+      font-size: 1.5em;
       font-family: Helvetica, Arial, sans-serif;
       padding: 10px 70px;
       box-sizing: border-box;
@@ -248,8 +248,7 @@
       background-color: FAFAFA;
 
       border-color: FAFAFA;
-
-      margin-bottom: 0;
+      margin: 0;
   }
 
     @media (min-width: 768px) {
@@ -317,23 +316,23 @@
     background: url(http://ww4.sinaimg.cn/large/006tNc79gy1ff39f6qg40j301o01o0kw.jpg) 0 0 no-repeat;
     background-size: 30px;
     font-size: 1.5em;
-    color: #777;
+    color: #512da8;
     text-align: left;
 }
 
  .comment_dsc .name {
     margin-bottom: 6px;
     font-size: 1.8em;
-    color: #585858;
+    color: #512da8;
 }
 
  .comment_list .comment_dsc {
     margin-top: 20px;
-    color: #a3a3a3;
+    color: #512da8;
 }
  .comment_dsc {
     margin-top: 20px;
-    color: #a3a3a3;
+    color: #512da8;
 }
 
 .navbar-default .navbar-brand {
@@ -351,4 +350,49 @@
     padding: 0 0 15px 0;
     border: none;
     border-radius: 0;
+    color: #512da8;
+}
+
+
+//-------Common-----
+.col-centered {
+  float: none;
+  margin: 0 auto;
+}
+
+.about {
+    text-align: center;
+    max-width: 800px;
+    min-height: 190px;
+    margin: 0 auto 10px;
+    background-size: 30px;
+    font-size: 1.5em;
+    color: #512da8;
+}
+
+.ft_wrap {
+  text-align: center;
+  max-width: 800px;
+  min-height: 190px;
+  margin: 0 auto 10px;
+  background-size: 30px;
+  font-size: 1.0em;
+  color: #512da8;
+}
+
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    text-align: center;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: #512da8;
+}
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #512da8;
+    background-color: #fff;
 }
